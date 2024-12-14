@@ -220,7 +220,18 @@
             <br>
             ©Abdelrahman Ebeid. All rights reserved.
         </footer>
+        <script>
+            document.querySelector('form').addEventListener('submit', function(e) {
+              const message = document.querySelector('textarea').value;
+              const maxLength = 500; // Set a max length
+              if (message.length > maxLength) {
+                alert("Message is too long, please shorten it.");
+                e.preventDefault(); // Prevent form submission
+              }
+            });
+          </script>
     </div>
+    
 </body>
 
 </html>
