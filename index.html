@@ -10,11 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Animate.css -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+ <!-- WOW.js -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="st">
+    <nav class="st wow animate__animated animate__fadeInDown">
         <a href="#"><img class="logo" src="logo.svg" alt="logo"></a>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
@@ -25,8 +31,8 @@
         </ul>
     </nav>
     <div class="container">
-        <div class="mainclass">
-            <div class="who">
+        <div class="mainclass ">
+            <div class="who animate__fadeInLeft animate__animated wow">
                 <h6 style="font-weight: 400;">Hello,I'm</h5>
                 <h2 style="color: #575757;">Abdelrahman Ebeid</h2>
                 <h5 style="font-weight: 400; margin-bottom: 10px;">Full Stack Developer</h4>
@@ -46,15 +52,15 @@
                 <a href="https://www.hackerrank.com/profile/mlolo80013" target="_blank"><i
                         class="fa-brands fa-hackerrank"></i></a>
             </div>
-            <div class="man">
+            <div class="man animate__fadeInRight wow animate__animated">
                 <img src="./man.svg" alt="man">
             </div>
         </div>
         <hr>
         <section id="About">
-            <img src="WhatsApp Image 2024-02-11 at 23.58.14_7b688343-Photoroom.png-Photoroom (1).png"
+            <img class="animate__zoomIn animate__animated wow" src="WhatsApp Image 2024-02-11 at 23.58.14_7b688343-Photoroom.png-Photoroom (1).png"
                 alt="Abdelrahman Ebeid">
-            <div class="abouttxt">
+            <div class="abouttxt animate__zoomIn animate__animated wow">
                 <h4 style="font-weight: 500; padding-top: 2px;">Abdelrahman Ebeid</h4>
                 <p class="subtitle" style="font-size: 25px">Full Stack Developer</p>
                 <p class="subtitle"> Junior Web Developer
@@ -73,37 +79,39 @@
             </div>
         </section>
         <section id="Services">
-            <h6 class="subtitle" style="font-weight: 500;">Services</h6>
-            <h2 style="margin-bottom: 10px;">What i do</h2>
-            <p class="subtitle" style="width: 900px;padding-bottom: 40px; margin: auto;">I specialize in delivering
-                top-notch designs,
-                innovative web
-                solutions, user-friendly
-                apps, and SEO strategies.</p>
+            <div class="animate__fadeInRightBig animate__animated wow">
+                <h6 class="subtitle" style="font-weight: 500;">Services</h6>
+                <h2 style="margin-bottom: 10px;">What i do</h2>
+                <p class="subtitle" style="width: 900px;padding-bottom: 40px; margin: auto;">I specialize in delivering
+                    top-notch designs,
+                    innovative web
+                    solutions, user-friendly
+                    apps, and SEO strategies.</p>
+            </div>
             <div class="cards">
-                <div class="card-body">
+                <div class="card-body animate__flipInX animate__animated wow">
                     <i class="fa-solid fa-laptop-code icon"></i>
                     <p class="subtitle">Front-end Development</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body animate__flipInX animate__animated wow">
                     <i class="fa-solid fa-server icon"></i>
                     <p class="subtitle">Back-end Development</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body animate__flipInX animate__animated wow">
                     <i class="fa-solid fa-database icon"></i>
                     <p class="subtitle">Database Administrator </p>
                 </div>
-                <div class="card-body">
+                <div class="card-body animate__flipInX animate__animated wow">
                     <i class="fa-solid fa-gear icon"></i>
                     <p class="subtitle">RESTful API Integration</p>
                 </div>
             </div>
         </section>
         <section id="Portfolio">
-            <h6 class="subtitle" style="font-weight: 500;">Portfolio</h6>
-            <h2 style="margin-bottom: 40px;">My Latest Work</h2>
+            <h6 class="subtitle animate__fadeInUp animate__animated wow" style="font-weight: 500;">Portfolio</h6>
+            <h2 class="animate__fadeInUp animate__animated wow" style="margin-bottom: 40px;">My Latest Work</h2>
             <div class="cards2">
-                <div class="card2-body">
+                <div class="card2-body animate__flipInY animate__animated wow">
                     <a href="https://super-sprite-f73aed.netlify.app/" target="_blank">
                         <img class="cardimg test" src="mawash.png" alt="elmawash">
                     </a>
@@ -117,7 +125,7 @@
                         <i class="fa-brands fa-github inneri" style="margin-top: 1rem;"></i>
                     </a>
                 </div>
-                <div class="card2-body">
+                <div class="card2-body animate__flipInY animate__animated wow">
                     <a href="https://ornate-quokka-b79e15.netlify.app/" target="_blank">
                         <img class="cardimg" src="corona.png" alt="Corona">
                     </a>
@@ -132,7 +140,7 @@
                 </div>
             </div>
             <div class="cards2">
-                <div class="card2-body">
+                <div class="card2-body animate__flipInY animate__animated wow ">
                     <a href="https://mann0.github.io/todo-list/" target="_blank"><img class="cardimg"
                             src="todo.png" alt="todo"></a>
                     <h3>Todo-list</h3>
@@ -146,7 +154,7 @@
                         <i class="fa-brands fa-github inneri" style="margin-top: 1rem;"></i>
                     </a>
                 </div>
-                <div class="card2-body">
+                <div class="card2-body animate__flipInY animate__animated wow">
                     <a href="https://taupe-custard-f47662.netlify.app/" target="_blank"><img class="cardimg"
                             src="pig_game.png" alt=""></a>
                     <h3>Pig game</h3>
@@ -163,7 +171,7 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section id="contact" class="animate__zoomIn animate__animated wow">
             <h6 class="subtitle" style="font-weight: 500;">Contact</h6>
             <h2 style="margin-bottom: 15px;">Get In Touch With Me</h2>
             <div class="formy-container">
@@ -209,7 +217,7 @@
                 </div>
             </div>
         </section>
-        <footer id="Contact" class="subtitle" style="margin-bottom: 15px;">
+        <footer id="Contact" class="subtitle animate__flipInX animate__animated wow" style="margin-bottom: 15px;">
             <div>
                 <a href="https://www.linkedin.com/in/abdelrahman-ebied69/" target="_blank"><i
                         class="fa-brands fa-linkedin-in"></i></a>
@@ -223,6 +231,9 @@
             ©Abdelrahman Ebeid. All rights reserved.
         </footer>
     </div>
+    <script>
+        new WOW().init();
+      </script>
 </body>
 
 </html>
